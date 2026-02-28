@@ -1,10 +1,8 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
 
-let ConnectionString = "mongodb+srv://api_db_user:zl7jQB76rfiNLXUr@cluster002.mamnjrw.mongodb.net/products?appName=Cluster002"
-
+let ConnectionString = "mongodb+srv://neonkenneth72_db_user:eGhtkUlIlGYUL4GW@midtermcluster.qucnfe7.mongodb.net/midterm?appName=MidtermCluster"
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
-
 module.exports = async function () {
   try {
     // Create a Mongoose client with a MongoClientOptions object to set the Stable API version
